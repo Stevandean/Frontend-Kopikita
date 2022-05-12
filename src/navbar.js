@@ -5,6 +5,7 @@ import Minuman from './pages/minuman';
 import './App.css';
 import Home from './pages/home';
 import Keranjang from './pages/keranjang';
+import {BsCart3} from "react-icons/bs";
 // import { getDefaultNormalizer } from '@testing-library/react';
 
 function Navbar() {//./
@@ -20,7 +21,7 @@ function Navbar() {//./
         <Link
           className="navbar-list " to="/minuman">Minuman</Link>
         <Link
-          className="navbar-icon " to="/keranjang">🛒</Link>
+        className="keranjang-icon" to="/keranjang"><BsCart3 size={29} /></Link>
         </div>
       </div>
       <Routes>
